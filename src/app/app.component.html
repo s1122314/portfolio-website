@@ -1,0 +1,47 @@
+<div class="nav-balk" (click)="toggleNav()">
+  <!-- Modal for the navigation -->
+  <div>
+    <div class="hamburger-menu">
+      <!-- Hamburger button icon with 3 bars -->
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-title-phone">
+      <h1>Niels Lusink</h1>
+    </div>
+    <nav [ngClass]="{'show': isNavVisible}">
+      <div class="nav-title">
+        <h1>Niels Lusink</h1>
+      </div>
+      <a routerLink="/work" routerLinkActive="active">Work</a>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+      <a routerLink="/contact" routerLinkActive="active">Contact</a>
+
+      <div class="animation start-name"></div>
+
+      <!-- Dark Mode Toggle -->
+      <label class="switch">
+        <input type="checkbox" [checked]="isDarkMode" (change)="toggleDarkMode()">
+        <span class="slider">
+          <i class="fas fa-sun sun-icon"></i>
+          <i class="fas fa-moon moon-icon"></i>
+        </span>
+      </label>
+    </nav>
+  </div>
+</div>
+<router-outlet class="main-content"></router-outlet>
+
+<!-- JavaScript to toggle the nav -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const nav = document.querySelector('nav');
+    const navBalk = document.querySelector('.nav-balk');
+
+    // Toggle nav visibility on click
+    navBalk.addEventListener('click', function () {
+      nav.classList.toggle('show');
+    });
+  });
+</script>

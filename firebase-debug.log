@@ -1,0 +1,60 @@
+[debug] [2024-09-20T14:35:45.624Z] ----------------------------------------------------------------------
+[debug] [2024-09-20T14:35:45.627Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\niels\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-20T14:35:45.628Z] CLI Version:   13.18.0
+[debug] [2024-09-20T14:35:45.628Z] Platform:      win32
+[debug] [2024-09-20T14:35:45.628Z] Node Version:  v20.15.0
+[debug] [2024-09-20T14:35:45.628Z] Time:          Fri Sep 20 2024 16:35:45 GMT+0200 (Midden-Europese zomertijd)
+[debug] [2024-09-20T14:35:45.628Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-20T14:35:45.637Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-20T14:35:45.638Z] > authorizing via signed-in user (nielslusink12@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\niels\Documents\Angular Course\Projects\Portfolio\Portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-20T14:36:00.454Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-09-20T14:36:01.028Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-09-20T14:36:01.028Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-09-20T14:36:31.470Z] ----------------------------------------------------------------------
+[debug] [2024-09-20T14:36:31.473Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\niels\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-20T14:36:31.474Z] CLI Version:   13.18.0
+[debug] [2024-09-20T14:36:31.474Z] Platform:      win32
+[debug] [2024-09-20T14:36:31.474Z] Node Version:  v20.15.0
+[debug] [2024-09-20T14:36:31.474Z] Time:          Fri Sep 20 2024 16:36:31 GMT+0200 (Midden-Europese zomertijd)
+[debug] [2024-09-20T14:36:31.474Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-20T14:36:31.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-20T14:36:31.483Z] > authorizing via signed-in user (nielslusink12@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\niels\Documents\Angular Course\Projects\Portfolio\Portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
